@@ -1,0 +1,36 @@
+<!doctype html public "-//w3c//dtd xhtml 1.0 frameset//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-frameset.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta content="MSHTML 6.00.6000.16674" name="GENERATOR" />
+        
+        <title>管理中心 v1.0</title>
+    </head>
+    <body>
+        <div><a href="{:U('News/add_news')}">添加新闻分类</a></div>
+        <table border="1" width="100%">
+            <tr>
+                <td>cat_id</td>
+                <td>cat_name</td>
+                <td>keywords</td>
+                <td>cat_desc</td>
+                <td>sort_order</td>
+                <td>show_in_nav</td>
+                <td>操作</td>
+            </tr>
+            <foreach name="list" item="vo" >
+            <tr>
+
+                    <td>{$vo.cat_id}</td>
+                    <td>{$vo.cat_name}</td>
+                    <td>{$vo.keywords}</td>
+                    <td>{$vo.cat_desc}</td>
+                    <td>{$vo.sort_order}</td>
+                    <td>{$vo.show_in_nav}</td>
+                    <td><a href="#">编辑</a>||<a href="#">删除</a></td>
+
+            </tr>
+            </foreach>
+        </table>
+    </body>
+</html>

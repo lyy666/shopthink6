@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="Generator" content="YONGDA v1.0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="Keywords" content="YONGDA商城" />
+        <meta name="Description" content="YONGDA商城" />
+        
+        <title>YONGDA商城 - Powered by YongDa</title>
+        
+        <link href="{$Think.const.CSS_URL}style.css" rel="stylesheet" type="text/css" />
+        
+    </head>
+    <body class="index_body">
+        <div class="block clearfix" style="position: relative; height: 98px;">
+            <a href="#" name="top"><img class="logo" src="{$Think.const.IMG_URL}logo.gif"></a>
+
+            <div id="topNav" class="clearfix">
+                <div style="float: left;">
+                    <font id="ECS_MEMBERZONE">
+                        <div id="append_parent"></div>
+                        欢迎光临本店&nbsp;
+                        <if condition="$user_id">
+                            <foreach name="user_info" item="vo" >
+                                {$vo.user_name}
+                            </foreach>
+                            <a href="http://127.0.0.1/lk/shop/index.php/home/user/login_out">退出</a>
+                            <else />
+                        <a href="http://127.0.0.1/lk/shop/index.php/home/user/login"> 登录</a>
+                        <a href="http://127.0.0.1/lk/shop/index.php/home/user/register">注册</a>
+                        </if>
+                    </font>
+                </div>
+                <div style="float: right;">
+                    <a href="#">查看购物车</a>
+                    |
+                    <a href="#">选购中心</a>
+                    |
+                    <a href="#">标签云</a>
+                    |
+                    <a href="#">报价单</a>
+                </div>
+            </div>
+            <div id="mainNav" class="clearfix">
+                <a href="#">首页<span></span></a>
+                <a href="#">GSM手机<span></span></a>
+                <a href="#">双模手机<span></span></a>
+                <a href="#">手机配件<span></span></a>
+                <a href="#">优惠活动<span></span></a>
+                <a href="#">留言板<span></span></a>
+            </div>
+        </div>
+
+        <div class="header_bg">
+            <div style="float: left; font-size: 14px; color:white; padding-left: 15px;">
+            </div>
+
+            <form id="searchForm" method="get" action="#">
+                <input name="keywords" id="keyword" type="text" />
+                <input name="imageField" value=" " class="go" style="cursor: pointer; background: url('{$Think.const.IMG_URL}sousuo.gif') no-repeat scroll 0% 0% transparent; width: 39px; height: 20px; border: medium none; float: left; margin-right: 15px; vertical-align: middle;" type="submit" />
+
+            </form>
+        </div>
+        <div class="blank5"></div>
+        <div class="header_bg_b">
+            <div class="f_l" style="padding-left: 10px;">
+                <img src="{$Think.const.IMG_URL}biao6.gif" />
+                    北京市区，现在下单(截至次日00:30已出库)，<b>明天上午(9-14点)</b>送达 <b>免运费火热进行中！</b>
+            </div>
+            <div class="f_r" style="padding-right: 10px;">
+                <img style="vertical-align: middle;" src="{$Think.const.IMG_URL}biao3.gif">
+                    <span class="cart" id="ECS_CARTINFO">
+                        <a href="#" title="查看购物车">您的购物车中有 0 件商品，总计金额 ￥0.00元。</a></span>
+                    <a href="#"><img style="vertical-align: middle;" src="{$Think.const.IMG_URL}biao7.gif"></a>
+
+            </div>
+        </div>
