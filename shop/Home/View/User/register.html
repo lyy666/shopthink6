@@ -13,7 +13,7 @@
                 <div class="usBox">
                     <div class="usBox_2 clearfix">
                         <div class="logtitle3"></div>
-                        <form id="yw0" action="http://127.0.0.1/thinkshop/shop/index.php/home/user/register_act" method="post">
+                        <form id="yw0" action="{:U('home/user/register_act')}" method="post">
                             <table cellpadding="5" cellspacing="3" style="text-align:left; width:100%; border:0;">
                                 <tbody>
                                     <tr>
@@ -118,7 +118,7 @@
                                         <td align="right"><label for="User_verify">验证码：</label></td>
                                         <td>
                                             <input class="inputBg" size="25" name="user_verify" id="User_verify" type="text" value="" />
-                                            <img  src="http://127.0.0.1/thinkshop/shop/index.php/home/user/verify" width="150px" height="50px">
+                                            <img  src="{:U('home/user/verify')}" width="150px" height="50px">
                                         </td>
                                     </tr>
                                     <tr>
