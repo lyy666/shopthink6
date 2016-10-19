@@ -30,7 +30,7 @@ margin:0; padding:0; border:none; list-style-type:none;
 .dis{display:block;}
 .inline{display:inline;}
 .none{display:none;}
-.dashed{background:url(http://127.0.0.1/lk/shop/public/Home/images/lineBg.gif) repeat-x left top; color:#3f3f3f;  padding:2px 0 3px 12px;}
+.dashed{background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/lineBg.gif) repeat-x left top; color:#3f3f3f;  padding:2px 0 3px 12px;}
 
 .clearfix:after{
 content:"."; display:block; height:0; clear:both;
@@ -48,7 +48,7 @@ visibility:hidden;
   /*边框*/
   .B_blue{border:1px solid #e2e2e2;}
   .B_input{border:1px solid #ccc;}
-  .inputBg{border:1px solid #b3b3b3; background:url(http://127.0.0.1/lk/shop/public/Home/images/inputbg.gif) repeat-x left top; height:18px;}
+  .inputBg{border:1px solid #b3b3b3; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/inputbg.gif) repeat-x left top; height:18px;}
   /*字体颜色ecmoban.com*/
   .f1{color:#ff7126; font-weight:bold}
   .f2{color:#006bd0; font-weight:bold; margin-right:15px;}
@@ -63,25 +63,25 @@ visibility:hidden;
   .shop_s{color:#ff7126; font-weight:bold}
   /*按钮部分*/
   .bnt_blue{
-  background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat 0px 0px; width:52px; height:21px;
+  background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat 0px 0px; width:52px; height:21px;
   text-align:center; line-height:22px; color:#333; border:none; cursor:pointer; overflow:hidden
   }
   .bnt_blue_1{
-  background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat 0px -663px; width:77px; height:21px;
+  background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat 0px -663px; width:77px; height:21px;
   text-align:center; line-height:22px; color:#333; border:none; cursor:pointer;overflow:hidden
   }
   .bnt_blue_2{
-  background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat 0px -696px; width:139px; height:21px;
+  background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat 0px -696px; width:139px; height:21px;
   text-align:center; line-height:22px; color:#333; border:none; cursor:pointer;overflow:hidden
   }
   .bnt_bonus{
-  background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat -56px 0px; width:52px; height:21px;
+  background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat -56px 0px; width:52px; height:21px;
   text-align:center; line-height:22px; color:#333; border:none; cursor:pointer;overflow:hidden
   }
   /*box from ec moban*/
   .box{ overflow:hidden;}
   .box_1{border:1px solid #ccc; background-color:#fff;}
-  .box_2{border:1px solid #ccc; background:url(http://127.0.0.1/lk/shop/public/Home/images/box_2Bg.gif) repeat-x top left;
+  .box_2{border:1px solid #ccc; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/box_2Bg.gif) repeat-x top left;
   background-color:#edf8fe;  overflow:hidden;
   }
   .boxCenterList{padding:8px;}
@@ -111,7 +111,7 @@ visibility:hidden;
   .AreaR{width:738px; float:right; overflow:hidden}
   .AreaM{ width:515px; float:left; padding-left:12px;}
   
-.AreaL h3{ background:url(http://127.0.0.1/lk/shop/public/Home/images/tit3.gif) no-repeat;  height:29px;line-height:29px; color:#FFF}
+.AreaL h3{ background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/tit3.gif) no-repeat;  height:29px;line-height:29px; color:#FFF}
 .AreaL h3 span{ background:none; color:#fff; font-weight:normal ;font-size:14px;height:29px;line-height:29px;}
 
 /* ====================
@@ -119,7 +119,7 @@ visibility:hidden;
 ==================== */
   /*顶部管理型导航*/
 
-  .tit1{ width:150px; height:34px; line-height:34px; background: url(http://127.0.0.1/lk/shop/public/Home/images/tit1.gif) no-repeat; font-size:14px; font-weight:bold; color:#FFFFFF; padding-left:40px;}
+  .tit1{ width:150px; height:34px; line-height:34px; background: url(http://127.0.0.1/thinkshop/shop/public/Home/images/tit1.gif) no-repeat; font-size:14px; font-weight:bold; color:#FFFFFF; padding-left:40px;}
   #topNav{ height:28px; background:#f7f7f7; border:1px solid #dbdbdb; border-top:none;
   line-height:28px; color:#333; padding:0px 10px; margin:0px 5px; position:relative; text-align:right
   }
@@ -128,7 +128,7 @@ visibility:hidden;
   /*页面主导航*/
  
   
-  .header_bg{ width:960px; height:33px;line-height:33px;  background: url(http://127.0.0.1/lk/shop/public/Home/images/header_bg.gif); position:relative; overflow:hidden}
+  .header_bg{ width:960px; height:33px;line-height:33px;  background: url(http://127.0.0.1/thinkshop/shop/public/Home/images/header_bg.gif); position:relative; overflow:hidden}
   .header_bg a{ color:#FFF; text-decoration:none; font-size:14px; padding:0 2px;  }
   
   .header_bg_b{ border:1px solid #ccc; height:30px;line-height:30px; width:958px;}
@@ -140,21 +140,21 @@ visibility:hidden;
  #mainNav{ width:910px; height:28px; position:absolute; top:70px; left:310px; }
   
   #mainNav a{display:block; height:28px; float:left; line-height:28px; text-align:center;
-  padding:0 25px; background:url(http://127.0.0.1/lk/shop/public/Home/images/NavBg.gif) no-repeat 0 -29px; position:relative;
+  padding:0 25px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/NavBg.gif) no-repeat 0 -29px; position:relative;
   margin-right:5px; color:#026acb; text-decoration:none;
   }
-  #mainNav a span{width:7px; height:28px; background:url(http://127.0.0.1/lk/shop/public/Home/images/NavBg.gif) no-repeat 0 -88px;
+  #mainNav a span{width:7px; height:28px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/NavBg.gif) no-repeat 0 -88px;
   position:absolute; top:0px; right:0px;
   }
   #mainNav a:hover{display:block; height:28px; float:left; line-height:28px; text-align:center;
-  padding:0 25px; background:url(http://127.0.0.1/lk/shop/public/Home/images/NavBg.gif) no-repeat 0 0; position:relative;
+  padding:0 25px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/NavBg.gif) no-repeat 0 0; position:relative;
   margin-right:5px; color:#fff; text-decoration:none;
   }
   #mainNav .cur{display:block; height:28px; float:left; line-height:28px; text-align:center;
-  padding:0 25px; background:url(http://127.0.0.1/lk/shop/public/Home/images/NavBg.gif) no-repeat 0 0; position:relative;
+  padding:0 25px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/NavBg.gif) no-repeat 0 0; position:relative;
   margin-right:5px; color:#fff; text-decoration:none; font-weight:bold; font-size:14px;
   }
-  #mainNav a:hover span,#mainNav .cur span{width:7px; height:28px; background:url(http://127.0.0.1/lk/shop/public/Home/images/NavBg.gif) no-repeat 0 -59px;
+  #mainNav a:hover span,#mainNav .cur span{width:7px; height:28px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/NavBg.gif) no-repeat 0 -59px;
   position:absolute; top:0px; right:0px;
   }
   
@@ -205,7 +205,7 @@ visibility:hidden;
    
  
    
-   .top10Tit{background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat 0px -85px; height:30px;}
+   .top10Tit{background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat 0px -85px; height:30px;}
    .top10List{background-color:#fff; margin:0px 4px 4px 4px;}
 	 .top10List ul{ position:relative; border-bottom:1px dotted #ccc}
 	 .top10List .iteration{position:absolute; top:6px; left:6px;}
@@ -219,32 +219,32 @@ visibility:hidden;
    
    
    .top10 .box_1{ border:1px solid #469b02}
-   .top10_1{ width:223px; height:106px; background: url(http://127.0.0.1/lk/shop/public/Home/images/top10_1.gif) no-repeat}
+   .top10_1{ width:223px; height:106px; background: url(http://127.0.0.1/thinkshop/shop/public/Home/images/top10_1.gif) no-repeat}
    .top10_1 li{ color:#FFF; font-size:12px; font-weight:bold}
    .top10_1 li a{ color:#FFF; font-weight:normal; display:block; padding-bottom:7px; }
    .top10_1 li .f1{ color:#FFF}
    /*首页焦点图*/
    #focus{ width:520px; float:left}
 
-   .newart_tit{ width:192px; height:26px; line-height:26px; background:url(http://127.0.0.1/lk/shop/public/Home/images/newart_tit.gif); color:#c90707; font-weight:bold; font-size:14px; text-align:left; color:#333; font-size:12px; padding-left:10px;}
+   .newart_tit{ width:192px; height:26px; line-height:26px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/newart_tit.gif); color:#c90707; font-weight:bold; font-size:14px; text-align:left; color:#333; font-size:12px; padding-left:10px;}
   .NewsList{background:#FFFFFF; padding:8px;}
    .NewsList ul{ line-height:21px;}
-  .NewsList li{background:url(http://127.0.0.1/lk/shop/public/Home/images/bg.gif) no-repeat 0px -167px; padding:0px 0px 0px 10px;line-height:21px; height:21px;
+  .NewsList li{background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/bg.gif) no-repeat 0px -167px; padding:0px 0px 0px 10px;line-height:21px; height:21px;
    text-align:left; color:#333; overflow:hidden
    }
   .NewsList li a{ color:#333; text-decoration:none}
    /*今日特价和品牌*/
-   #sales{width:500px; background:url(http://127.0.0.1/lk/shop/public/Home/images/salesBg.gif) repeat-x left bottom;
+   #sales{width:500px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/salesBg.gif) repeat-x left bottom;
    border-bottom:2px solid #f0f1f3; background-color:#eef8ff;
    }
-   #sales h1{font-size:12px; background:url(http://127.0.0.1/lk/shop/public/Home/images/salesTitBg.gif) no-repeat; height:33px; text-align:right;}
+   #sales h1{font-size:12px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/salesTitBg.gif) no-repeat; height:33px; text-align:right;}
    #sales h1 img{position:relative; top:10px; right:8px;}
    #sales .goodBox{margin:10px 0px 10px 10px; _margin-left:5px;}
      #sales .goodBox .goodList p{text-align:left; color:#3f3f3f;}
      #sales .goodBox .goodList p a{color:#3f3f3f; text-decoration:none;}
    #sales .goodBox .goodList p a:hover{color:#ff6600; text-decoration:none;}
    #sales .goodList{width:110px; margin:0px 5px 0px 5px; float:left;}
-   #sales .goodList img{background:url(http://127.0.0.1/lk/shop/public/Home/images/salesGoodBg.gif) no-repeat; width:100px; height:100px; padding:5px;
+   #sales .goodList img{background:url(http://127.0.0.1/thinkshop/shop/public/Home/images/salesGoodBg.gif) no-repeat; width:100px; height:100px; padding:5px;
    }
    #sales .goodList p{ margin-top:3px; text-align:center;}
 
@@ -261,7 +261,7 @@ visibility:hidden;
    /*精品推荐，新品上市，热卖商品*/
    .centerPadd{padding:5px 8px 8px 8px; overflow:hidden;}
    
-   .box_3{ border:1px solid #dedede; background:url(http://127.0.0.1/lk/shop/public/Home/tit1.gif) repeat-x }
+   .box_3{ border:1px solid #dedede; background:url(http://127.0.0.1/thinkshop/shop/public/Home/tit1.gif) repeat-x }
    
    .itemTit{height:28px;  text-align:right; position:relative; background:#f7f7f7; border-bottom:1px solid #dbdbdb
   
@@ -316,9 +316,9 @@ visibility:hidden;
        .goodsItem p a{color:#3f3f3f; text-decoration:none;}
        .goodsItem p a:hover{color:#ff6600; text-decoration:none;}
        .goodsItem span{width:40px; height:40px; position:absolute;left:0px; top:0px;}
-       .goodsItem span.best{background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat 0px -304px;}
-       .goodsItem span.news{background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat -75px -304px;}
-       .goodsItem span.hot{background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat -161px -304px;}
+       .goodsItem span.best{background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat 0px -304px;}
+       .goodsItem span.news{background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat -75px -304px;}
+       .goodsItem span.hot{background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat -161px -304px;}
 	   
 	   
 	   
@@ -353,8 +353,8 @@ visibility:hidden;
    .boxCenterList li.goodsimg{width:48px; margin-right:10px; float:left}
    .boxCenterList li.goodsimg img{width:48px; height:48px; display:block;}
    /*相关文章(其它带有小三角点的文字列表共用)*/
-   .RelaArticle a,.alone{background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; color:#3f3f3f; text-decoration:none;}
-   .RelaArticle a:hover{background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; color:#ff6600; text-decoration:none;}
+   .RelaArticle a,.alone{background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; color:#3f3f3f; text-decoration:none;}
+   .RelaArticle a:hover{background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat 0px -170px; padding:0px 0px 0px 10px; color:#ff6600; text-decoration:none;}
    /*浏览历史，收藏*/
    .history h2{height:26px; line-height:26px; padding:0px 10px 0 20px; text-align:center; font-size:12px;
    float:left; color:#0963c4;
@@ -374,8 +374,8 @@ visibility:hidden;
    #goodsInfo{  _height:1%;}
    #goodsInfo .imgInfo{width:310px; float:left; padding-right:10px; }
    #goodsInfo .imgInfo .thumb{width:230px; height:230px; display:block;}/*商品详情图片*/
-   #goodsInfo span{width:4px; height:48px; background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat 0 -527px; float:left;}
-   #goodsInfo span.spanR{width:4px; height:48px; background:url(http://127.0.0.1/lk/shop/public/Home/bg.gif) no-repeat -5px -527px; float:right;}
+   #goodsInfo span{width:4px; height:48px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat 0 -527px; float:left;}
+   #goodsInfo span.spanR{width:4px; height:48px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/bg.gif) no-repeat -5px -527px; float:right;}
    #goodsInfo .gallery{width:204px; float:left; margin-left:10px; _margin-left:5px; overflow:hidden;}
    #goodsInfo .gallery ul{width:auto;}
    #goodsInfo .gallery li{float:left; width:48px; margin:0 2px;}
@@ -385,7 +385,7 @@ visibility:hidden;
    #goodsInfo .textInfo{background:#fff; width:393px; float:left; padding:0 10px; }
    #goodsInfo .textInfo p{font-size:14px; font-weight:bold; padding:0 5px 5px 8px;}
    #goodsInfo .textInfo ul{border-top:1px solid #ccc;}
-   #goodsInfo .textInfo li{background:url(http://127.0.0.1/lk/shop/public/Home/lineBg.gif) repeat-x left bottom; padding:0px 8px; _height:1%;}
+   #goodsInfo .textInfo li{background:url(http://127.0.0.1/thinkshop/shop/public/Home/lineBg.gif) repeat-x left bottom; padding:0px 8px; _height:1%;}
    #goodsInfo .textInfo li.padd{padding:7px 0px 7px 8px;}
    #goodsInfo .textInfo li dd{width:50%; float:left; padding:7px 0px;}
    #goodsInfo .textInfo li dd.ddR{border-left:1px solid #eeecec; width:48%; padding-left:8px;}
@@ -400,7 +400,7 @@ visibility:hidden;
 	.shuxin dd .span2{width:220px; padding-left:5px;}
    /*用户评论*/
    .ie6{padding-left:25px; _padding-left:15px; height:1%;}/*购买此商品的人还购买的商品*/
-   .comments li{background:url(http://127.0.0.1/lk/shop/public/Home/lineBg.gif) repeat-x left bottom; padding:3px 8px; width:97%; _height:1%; text-align:left; position:relative;
+   .comments li{background:url(http://127.0.0.1/thinkshop/shop/public/Home/lineBg.gif) repeat-x left bottom; padding:3px 8px; width:97%; _height:1%; text-align:left; position:relative;
    margin-bottom:8px;
    }
    .comments li img{position:absolute; right:0px; top:3px;}
@@ -432,27 +432,27 @@ visibility:hidden;
 	
 	.usBox .inputBg{ border:1px solid #ccc; background:none}
     .usBox_1{background:#fff; text-align:left; width:320px; }
-    .logtitle{height:35px; background:url(http://127.0.0.1/lk/shop/public/Home/user_tit1.gif) no-repeat 0px 0px;}
-	.logtitle3{height:35px; background:url(http://127.0.0.1/lk/shop/public/Home/user_tit3.gif) no-repeat 0px 0px;}
-    .us_Submit{border:none; width:125px; height:40px; background:url(http://127.0.0.1/lk/shop/public/Home/bnt_ur_log.gif)}
-    .us_Submit_reg{border:none;  width:125px; height:40px; background:url(http://127.0.0.1/lk/shop/public/Home/bnt_ur_reg.gif);}
+    .logtitle{height:35px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/user_tit1.gif) no-repeat 0px 0px;}
+	.logtitle3{height:35px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/user_tit3.gif) no-repeat 0px 0px;}
+    .us_Submit{border:none; width:125px; height:40px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/bnt_ur_log.gif)}
+    .us_Submit_reg{border:none;  width:125px; height:40px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/bnt_ur_reg.gif);}
     .usTxt{width:510px; height:267px;  float:right;
     text-align:left;  line-height:23px; border-left:1px solid #c3b9b1; padding-left:20px;
     }
-	.regtitle{ width:510px; height:35px; background:url(http://127.0.0.1/lk/shop/public/Home/user_tit2.gif)}
+	.regtitle{ width:510px; height:35px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/user_tit2.gif)}
     .usTxt img{margin-top:15px;}
     /*注册*/
-    .usBox_2{background:#fff url(http://127.0.0.1/lk/shop/public/Home/usBox_2bg.gif) 550px center no-repeat ; text-align:left; padding:43px 153px 60px 123px;}
-    .usBox_2 .regtitle{height:30px; background:url(http://127.0.0.1/lk/shop/public/Home/ur_bg.gif) no-repeat 0px -34px;}
+    .usBox_2{background:#fff url(http://127.0.0.1/thinkshop/shop/public/Home/usBox_2bg.gif) 550px center no-repeat ; text-align:left; padding:43px 153px 60px 123px;}
+    .usBox_2 .regtitle{height:30px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/ur_bg.gif) no-repeat 0px -34px;}
     .actionSub a{color:#000; text-decoration:underline;
-    background:url(http://127.0.0.1/lk/shop/public/Home/ur_bg.gif) no-repeat 0px -68px; padding-left:14px;
+    background:url(http://127.0.0.1/thinkshop/shop/public/Home/ur_bg.gif) no-repeat 0px -68px; padding-left:14px;
     }
-    .box_1 .userCenterBox .userMenu a{display:block; height:25px; line-height:25px; background:url(http://127.0.0.1/lk/shop/public/Home/menuBg.gif) no-repeat 0 -30px;
+    .box_1 .userCenterBox .userMenu a{display:block; height:25px; line-height:25px; background:url(http://127.0.0.1/thinkshop/shop/public/Home/menuBg.gif) no-repeat 0 -30px;
     color:#3f3f3f; text-decoration:none; margin:0 0 3px 10px; padding-left:3px;
     }
-    .box_1 .userCenterBox .userMenu a.curs{background:url(http://127.0.0.1/lk/shop/public/Home/menuBg.gif) no-repeat 0 0px; font-weight:bold;}
+    .box_1 .userCenterBox .userMenu a.curs{background:url(http://127.0.0.1/thinkshop/shop/public/Home/menuBg.gif) no-repeat 0 0px; font-weight:bold;}
     .box_1 .userCenterBox .userMenu a img{ margin-right:3px;}
-    .msgBottomBorder{clear:both; background:url(http://127.0.0.1/lk/shop/public/Home/lineBg.gif) repeat-x left bottom; padding-bottom:8px; margin-bottom:8px;}
+    .msgBottomBorder{clear:both; background:url(http://127.0.0.1/thinkshop/shop/public/Home/lineBg.gif) repeat-x left bottom; padding-bottom:8px; margin-bottom:8px;}
 
 /* ====================
      商品分类页面
@@ -536,7 +536,7 @@ visibility:hidden;
 
 
 /* ======商品比较浮动块 ====== */
-#compareBox { background:url(http://127.0.0.1/lk/shop/public/Home/comparebox.gif) no-repeat;
+#compareBox { background:url(http://127.0.0.1/thinkshop/shop/public/Home/comparebox.gif) no-repeat;
  width:140px;
  position: absolute;
  right:1px;
@@ -546,7 +546,7 @@ visibility:hidden;
 #compareBox input {
     width:140px; height:26px;
     border:none;
-    background:url(http://127.0.0.1/lk/shop/public/Home/compareSub.gif) no-repeat;
+    background:url(http://127.0.0.1/thinkshop/shop/public/Home/compareSub.gif) no-repeat;
 }
 
 #compareList {
@@ -639,7 +639,7 @@ visibility:hidden;
 
 /* CSS class for thumbnail link <A> */
 .MagicThumb {
-    cursor: url(http://127.0.0.1/lk/shop/public/Home/zoomin.cur), pointer;
+    cursor: url(http://127.0.0.1/thinkshop/shop/public/Home/zoomin.cur), pointer;
     outline: none;
 }
 
@@ -656,7 +656,7 @@ visibility:hidden;
 .MagicThumb-image { border: 1px solid #cccccc; outline: none; }
 
 /* CSS class for the zoomed big image */
-.MagicThumb-image-zoomed { cursor: url(http://127.0.0.1/lk/shop/public/Home/zoomout.cur), pointer; }
+.MagicThumb-image-zoomed { cursor: url(http://127.0.0.1/thinkshop/shop/public/Home/zoomout.cur), pointer; }
 
 /* CSS class for the caption under the big zoomed image */
 .MagicThumb-caption {
@@ -689,7 +689,7 @@ visibility:hidden;
 	display: block;
 	width: 1000px;
 	height: 1000px;
-	background: transparent url(http://127.0.0.1/lk/shop/public/Home/controlbar.png) no-repeat 0 0;
+	background: transparent url(http://127.0.0.1/thinkshop/shop/public/Home/controlbar.png) no-repeat 0 0;
 	outline: none;
 	position: absolute;
 	left: 0px;
@@ -699,7 +699,7 @@ visibility:hidden;
 /* CSS class for the loading message box */
 .MagicThumb-loading {
 	border: 1px solid #000000;
-	background: #ffffff url(http://127.0.0.1/lk/shop/public/Home/loader.gif) no-repeat 2px 50%;
+	background: #ffffff url(http://127.0.0.1/thinkshop/shop/public/Home/loader.gif) no-repeat 2px 50%;
 	padding: 2px 2px 2px 22px;
 	margin: 0;
 	text-decoration: none;

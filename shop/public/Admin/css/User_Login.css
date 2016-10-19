@@ -1,5 +1,5 @@
 #userlogin_body {
-	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_all_bg.jpg) #226cc5 repeat-x 50% top; PADDING-BOTTOM: 0px; MARGIN: 110px 0px 0px; FONT: 12px/150% Arial, "����" ,Helvetica,sans-serif; PADDING-TOP: 0px; TEXT-DECORATION: none
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_all_bg.jpg) #226cc5 repeat-x 50% top; PADDING-BOTTOM: 0px; MARGIN: 110px 0px 0px; FONT: 12px/150% Arial, "����" ,Helvetica,sans-serif; PADDING-TOP: 0px; TEXT-DECORATION: none
 }
 #user_login {
 	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
@@ -71,28 +71,28 @@ FORM {
 	FLOAT: left; LIST-STYLE-TYPE: none
 }
 .user_top_r {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_top_r.gif) no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_top_r.gif) no-repeat 50% top
 }
 .user_top_c {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_top_c.gif) no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_top_c.gif) no-repeat 50% top
 }
 .user_top_l {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_top_l.gif) no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_top_l.gif) no-repeat 50% top
 }
 .user_main_r {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_main_r.gif) #bec5cc no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_main_r.gif) #bec5cc no-repeat 50% top
 }
 .user_main_c {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_main_c.gif) #bec5cc no-repeat 50% top; WIDTH: 280px
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_main_c.gif) #bec5cc no-repeat 50% top; WIDTH: 280px
 }
 .user_main_l {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_main_l.gif) #bec5cc no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_main_l.gif) #bec5cc no-repeat 50% top
 }
 .user_bottom_r {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_bottom_r.gif) no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_bottom_r.gif) no-repeat 50% top
 }
 .user_bottom_c {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_bottom_c.gif) no-repeat 50% top; COLOR: #fff; LINE-HEIGHT: 117px; PADDING-TOP: 20px; TEXT-ALIGN: right
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_bottom_c.gif) no-repeat 50% top; COLOR: #fff; LINE-HEIGHT: 117px; PADDING-TOP: 20px; TEXT-ALIGN: right
 }
 .user_bottom_c A {
 	COLOR: yellow; TEXT-DECORATION: underline
@@ -101,7 +101,7 @@ FORM {
 	COLOR: #c00
 }
 .user_bottom_l {
-	BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_bottom_l.gif) no-repeat 50% top
+	BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_bottom_l.gif) no-repeat 50% top
 }
 .user_top_r {
 	FLOAT: left; WIDTH: 180px
@@ -188,13 +188,13 @@ user_main_c {
 	MARGIN-BOTTOM: -2px; MARGIN-LEFT: -25px
 }
 .TxtUserNameCssClass {
-	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_login_name.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 165px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_login_name.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 165px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
 }
 .TxtPasswordCssClass {
-	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_login_password.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 165px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_login_password.gif) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 165px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
 }
 .TxtValidateCodeCssClass {
-	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/lk/shop/public/Admin/img/user_login_validatecode.gif) no-repeat; IME-MODE: disabled; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 91px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 25px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://127.0.0.1/thinkshop/shop/public/Admin/img/user_login_validatecode.gif) no-repeat; IME-MODE: disabled; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 91px; LINE-HEIGHT: 20px; HEIGHT: 21px; BORDER-RIGHT-WIDTH: 0px
 }
 .IbtnEnterCssClass {
 	WIDTH: 111px; HEIGHT: 122px

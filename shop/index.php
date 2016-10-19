@@ -8,7 +8,7 @@
 define('APP_DEBUG',true);
 
 //Ìí¼Ó³£Á¿
-define("SITE_URL","http://127.0.0.1/lk/shop/public/Home/");
+define("SITE_URL","http://127.0.0.1/thinkshop/shop/public/Home/");
 define("CSS_URL",SITE_URL."css/");
 define("IMG_URL",SITE_URL."images/");
 define("JS_URL",SITE_URL."js/");

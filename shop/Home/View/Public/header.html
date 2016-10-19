@@ -24,10 +24,10 @@
                             <foreach name="user_info" item="vo" >
                                 {$vo.user_name}
                             </foreach>
-                            <a href="http://127.0.0.1/lk/shop/index.php/home/user/login_out">退出</a>
+                            <a href="{:U('home/user/login_out')}">退出</a>
                             <else />
-                        <a href="http://127.0.0.1/lk/shop/index.php/home/user/login"> 登录</a>
-                        <a href="http://127.0.0.1/lk/shop/index.php/home/user/register">注册</a>
+                        <a href="{:U('home/user/login')}"> 登录</a>
+                        <a href="{:U('home/user/register')}">注册</a>
                         </if>
                     </font>
                 </div>
