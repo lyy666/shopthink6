@@ -7,7 +7,7 @@ class CategoryController extends Controller {
 
 public function index(){
             $cats = D('category')->catTree();
-            print_r($cats);
+//            print_r($cats);
             $this -> assign('cats',$cats);
             $this -> display();
         }

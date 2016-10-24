@@ -37,19 +37,19 @@ class ManagerController extends Controller{
                     //保存登录的时间
                     $rr = $u->where('user_id ='.$_SESSION['user_id'])->save($data);
                     $a = U("index/index");
-                    $this->success('登录成功', 'http://127.0.0.1/'.$a);
+                    $this->success('登录成功', 'http://127.0.0.1'.$a);
 
                 } else {
                     $aa = U("manager/login");
-                    $this->error('登录失败', 'http://127.0.0.1/'.$aa);
+                    $this->error('登录失败', 'http://127.0.0.1'.$aa);
                 }
             }  else{
                 $aa = U("manager/login");
-                $this->error('验证码错误', 'http://127.0.0.1/'.$aa);
+                $this->error('验证码错误', 'http://127.0.0.1'.$aa);
             }
         } else {
            $aa = U("manager/login");
-           $this->error('用户名密码验证码不能为空', 'http://127.0.0.1/'.$aa);
+           $this->error('用户名密码验证码不能为空', 'http://127.0.0.1'.$aa);
         }
     }
     function verify(){

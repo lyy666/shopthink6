@@ -17,7 +17,7 @@
                         <li class="user_top_c"></li>
                         <li class="user_top_r"></li></ul>
                 </dd><dd id="user_main">
-                    <form action="{:U('Manager/login_act')}" method="post" name="login_act">
+                    <form action="{:U('Admin/Manager/login_act')}" method="post" name="login_act">
                         <ul>
                             <li class="user_main_l"></li>
                             <li class="user_main_c">
@@ -36,7 +36,7 @@
                                         <li class="user_main_text">验证码： </li>
                                         <li class="user_main_input">
                                             <input class="TxtValidateCodeCssClass" id="captcha" name="captcha" type="text">
-                                            <img src="/thinkshop/shop/Admin/Manager/verify"  alt="验证码" />
+                                            <img src="{:U('Manager/verify')}"  alt="验证码" />
                                         </li>
                                     </ul>
                                 </div>

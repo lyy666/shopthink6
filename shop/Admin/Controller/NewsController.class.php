@@ -10,7 +10,7 @@ use Think\Controller;
 
 class NewsController extends Controller{
     public function new_cat_list(){
-        //»ñµÃĞÂÎÅ·ÖÀàµÄÁĞ±í
+        //è·å¾—æ–°é—»åˆ†ç±»çš„åˆ—è¡¨
         $arcrticle = M('article_cat');
         $list = $arcrticle->select();
         $this->list = $list;
@@ -20,11 +20,21 @@ class NewsController extends Controller{
         $article_cat = M('article_cat');
         $select1 = $article_cat->select();
         $select = $this->list_arr($select1);
-
-        print_r($select);
         $this->display();
     }
-    function list_arr($array,$pid=0){
+
+    public function add_news_act(){
+        //æ¥æ”¶æ•°æ®
+        $data['cat_name'] = I('post.cat_name');
+        $data['cat_id'] = I('post.cat_id');
+        $data['keywords'] = I('post.keywords');
+        $data['cat_desc'] = I('post.cat_desc');
+        print_r($data);
+
+    }
+
+
+    public function list_arr($array,$pid=0){
         $arr=array();
         foreach($array as $v){
             if($v['parent_id']==$pid){
@@ -33,5 +43,5 @@ class NewsController extends Controller{
             }
         }
         return $arr;
-}
+    }
 }

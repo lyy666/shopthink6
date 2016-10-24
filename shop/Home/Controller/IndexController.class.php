@@ -6,7 +6,7 @@ class IndexController extends Controller {
         if($_SESSION['user_id']){
             $this->user_id=$_SESSION['user_id'];
             $user_id =$_SESSION['user_id'];
-            //根据session的user_id得到user_name
+            //鏍规嵁session鐨剈ser_id寰楀埌user_name
             $user = M('users');
             $user_info = $user->where('user_id ='.$user_id)->select();
             //print_r($user_info);

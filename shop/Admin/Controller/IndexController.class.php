@@ -19,13 +19,13 @@ class IndexController extends Controller{
             $this->user_id = $_SESSION['user_id'];
             $this->user_name = $_SESSION['user_name'];
         }
-            $this->display();
+        $this->display();
     }
     function left(){
         $this->display();
     }
     function right(){
-        //判断是否有user_id，要是有就根据user_id得到后台登录用户的基本的信息
+        //鍒ゆ柇鏄惁鏈塽ser_id锛岃鏄湁灏辨牴鎹畊ser_id寰楀埌鍚庡彴鐧诲綍鐢ㄦ埛鐨勫熀鏈殑淇℃伅
         $admin_user = M('admin_user');
         $admin_info = $admin_user->where('user_id='.$_SESSION['user_id'])->find();
         $admin_info['reg_time'] = date("Y-m-d H:i:s",$admin_info['reg_time']);
